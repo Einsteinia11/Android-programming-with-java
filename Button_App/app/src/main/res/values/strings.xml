@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">syllabi2</string>
+    <string name="plus">Increement</string>
+    <string name="minus">decreement</string>
+</resources>
