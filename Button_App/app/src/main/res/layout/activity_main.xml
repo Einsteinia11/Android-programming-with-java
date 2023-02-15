@@ -8,44 +8,60 @@
 
     <EditText
         android:id="@+id/editTextTextMultiLine"
-        android:layout_width="132dp"
-        android:layout_height="88dp"
-        android:background="@color/purple_500"
+        android:layout_width="341dp"
+        android:layout_height="128dp"
+        android:background="@android:drawable/editbox_background_normal"
         android:ems="10"
         android:gravity="start|top"
         android:hint="@string/plus"
-        android:inputType="textMultiLine"
-        android:textColor="#F6F4F4"
+        android:inputType="textMultiLine|number"
+        android:textColor="#0C0000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.364" />
+        app:layout_constraintVertical_bias="0.124" />
 
     <ImageButton
         android:id="@+id/add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_foreground"
         android:contentDescription="@string/plus"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.38"
+        app:layout_constraintVertical_bias="0.382"
         app:srcCompat="@android:drawable/ic_input_add" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="56dp"
-        android:layout_height="51dp"
+        android:id="@+id/minus"
+        android:layout_width="86dp"
+        android:layout_height="101dp"
+        android:background="@drawable/ic_launcher_foreground"
         android:contentDescription="@string/minus"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintHorizontal_bias="0.917"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.378"
+        app:layout_constraintVertical_bias="0.382"
         app:srcCompat="?attr/editTextBackground" />
+
+    <ImageButton
+        android:id="@+id/clear"
+        android:layout_width="72dp"
+        android:layout_height="68dp"
+        android:background="@drawable/ic_launcher_foreground"
+        android:contentDescription="@string/Clear_all"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404"
+        app:srcCompat="@android:drawable/btn_dialog" />
 </androidx.constraintlayout.widget.ConstraintLayout>
