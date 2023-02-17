@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Background_changer</string>
+    <string name="change">Change</string>
+    <string name="chnage_bg_image">Chnage bg image</string>
+    <string name="background_changer">Background Changer</string>
+    <string name="change_color">Change Color</string>
+</resources>
